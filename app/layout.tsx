@@ -19,7 +19,7 @@ export default function RootLayout({
           <header>
             <NavBar />
           </header>
-          <div className="h-full">{children}</div>
+          <div className="h-full p-16">{children}</div>
           <footer></footer>
         </main>
       </body>

@@ -1,4 +1,4 @@
-const ItemsLayout = ({
+const LoginLayout = ({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -6,4 +6,4 @@ const ItemsLayout = ({
   return <>{children}</>;
 };
 
-export default ItemsLayout;
+export default LoginLayout;
